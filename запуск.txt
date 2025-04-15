@@ -1,0 +1,7 @@
+cd /d "D:\Телеграм\Бот\бот"
+python run_bot.py
+
+
+
+alembic revision "add_reaction"
+alembic upgrade head
